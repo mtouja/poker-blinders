@@ -1,0 +1,111 @@
+.title {
+  height: 40px !important;
+  background-color: #f87515 !important;
+  box-shadow: 10px 10px 50px #121116;
+  padding: 3px;
+  letter-spacing: 3px;
+}
+
+.extra-rules {
+  color: #f87515 !important;
+  font-size: 1em !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: solid 1px #f87515 ;
+  transition: 0.4s ease-in;
+}
+
+.selection {
+  font-size: 1em !important;
+  margin-bottom: 3px !important;
+  color: whitesmoke !important;
+  opacity: 0.7 !important;
+  letter-spacing: 1px;
+}
+
+.quantity-btn {
+  background-color: #1c222e !important;
+  border-color: #20A6DB !important;
+}
+
+.parameters-inputs {
+  color: #20A6DB !important;
+  border-radius: 0 !important;
+  background-color: #1c222e !important;
+  border-bottom: none;
+  border-top: 0px !important;
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+
+.recave-false {
+  color: grey !important;
+  border-radius: 0 !important;
+  background-color: #1c222e !important;
+  border-bottom: none !important;
+  border-top: 0px !important;
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+
+.dropdown {
+  text-align: center;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+  box-shadow: none !important;
+}
+
+.dropdown-menu {
+  min-width: 5em !important;
+  border-radius: 0 !important;
+}
+
+.table-dark {
+  color: #20A6DB !important;
+  background-color: #1c222e !important;
+}
+
+.player-stack {
+  margin-top: 20px;
+  letter-spacing: 2px;
+  color: #f87515;
+}
+
+#recave-button {
+  height: 20px;
+  width: 45px;
+  margin: 1px;
+  position: relative;
+  background: #fff !important;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.25s ease 0s;
+}
+
+::placeholder {
+  color: #20A6DB !important;
+}
+
+.modal-core {
+  background-color:#0a6284;
+  border: none !important;
+  color: #fff;
+  font-size: 20px;
+}
+
+.modal-border {
+  opacity: 0.9;
+  border: solid 10px #1c222e;
+  border-radius: 20px;
+}
+
+.prices {
+  letter-spacing: 6px;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.cart-icon {
+  width: 40px;
+}

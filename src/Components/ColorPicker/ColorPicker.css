@@ -1,0 +1,140 @@
+:root {
+  --picker-position: absolute !important;
+  --top-picker-position: 5px !important;
+  --z-position-picker: 2 !important;
+}
+
+.popover {
+  position: var(--picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.color {
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  z-index: 10;
+}
+
+.swatch {
+  padding: 5px;
+  border-radius: 50px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.popoverOne0 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.popoverTwo0 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.popoverOne1 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.popoverTwo1 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.popoverOne2 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.popoverTwo2 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  z-index: var(--z-position-picker);
+}
+
+.popoverOne3 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  right: -50px !important;
+  z-index: var(--z-position-picker);
+}
+.popoverTwo3 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  right: -50px !important;
+  z-index: var(--z-position-picker);
+}
+.popoverOne4 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  right: 20px !important;
+  z-index: var(--z-position-picker);
+}
+.popoverTwo4 {
+  position: var(--picker-position);
+  top: var(--top-picker-position);
+  right: 50px !important;
+  z-index: var(--z-position-picker);
+}
+.cover {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#positionColorPicker2 {
+  margin-right: 15%;
+}
+
+.color-picker-mobile {
+  height: 50px;
+}
+
+#positionColorPickerOne0 {
+  float: right;
+}
+
+#positionColorPickerOne1 {
+  float: center;
+}
+
+#positionColorPickerOne2 {
+  float: left;
+}
+
+#positionColorPickerOne3 {
+  float: center;
+}
+
+#positionColorPickerOne4 {
+  float: left;
+}
+
+#positionColorPickerTwo0 {
+  float: right;
+}
+
+#positionColorPickerTwo1 {
+  float: center;
+}
+
+#positionColorPickerTwo2 {
+  float: left;
+}
+
+#positionColorPickerTwo3 {
+  float: center;
+}
+
+#positionColorPickerTwo4 {
+  float: left;
+}
